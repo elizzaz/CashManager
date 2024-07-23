@@ -1,0 +1,29 @@
+PODS:
+  - Drops (1.6.0)
+  - lottie-ios (3.5.0)
+
+DEPENDENCIES:
+  - Drops (from `https://github.com/omaralbeik/Drops.git`, tag `1.6.0`)
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+
+EXTERNAL SOURCES:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.6.0
+
+CHECKOUT OPTIONS:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.6.0
+
+SPEC CHECKSUMS:
+  Drops: da5dc4a3805debc408b7db9d0ba3b9cc147c8d1e
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+
+PODFILE CHECKSUM: 54fa1ffaee37ee84af1392834d57193abdf78e75
+
+COCOAPODS: 1.11.3

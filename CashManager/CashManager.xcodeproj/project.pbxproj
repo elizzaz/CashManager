@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC8E2C02948BE79004E9AC0 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8E2BF2948BE79004E9AC0 /* AddCategory.swift */; };
+		1CECCF72293F79D50044FDB7 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CECCF71293F79D50044FDB7 /* CategoryView.swift */; };
+		1CF3711B2959EE0C0089BC5A /* UpdateCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF3711A2959EE0C0089BC5A /* UpdateCategory.swift */; };
+		1DB88449AB4326029A7303ED /* Pods_CashManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3752B7E7F7B87896790F3B38 /* Pods_CashManager.framework */; };
+		3B07C823292D19BC00BAC5A1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07C822292D19BC00BAC5A1 /* Login.swift */; };
+		3B7BC822292CD30300512C11 /* CashManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BC821292CD30300512C11 /* CashManagerApp.swift */; };
+		3B7BC824292CD30300512C11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BC823292CD30300512C11 /* ContentView.swift */; };
+		3B7BC826292CD30500512C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7BC825292CD30500512C11 /* Assets.xcassets */; };
+		3B7BC829292CD30500512C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7BC828292CD30500512C11 /* Preview Assets.xcassets */; };
+		3B7BC833292CD30500512C11 /* CashManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BC832292CD30500512C11 /* CashManagerTests.swift */; };
+		3B7BC83D292CD30500512C11 /* CashManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BC83C292CD30500512C11 /* CashManagerUITests.swift */; };
+		3B7BC83F292CD30500512C11 /* CashManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7BC83E292CD30500512C11 /* CashManagerUITestsLaunchTests.swift */; };
+		3B7F6D2A293E0DF10049F219 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F6D27293E0DF10049F219 /* CodeScanner.swift */; };
+		3B7F6D2B293E0DF10049F219 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F6D28293E0DF10049F219 /* ScannerViewController.swift */; };
+		3BF02A3D293E2F7300AAD5AF /* AuthenticateBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF02A3C293E2F7300AAD5AF /* AuthenticateBack.swift */; };
+		3BF02A3F293E30D800AAD5AF /* AuthenticateRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF02A3E293E30D800AAD5AF /* AuthenticateRequests.swift */; };
+		7F43C9BFAA42056BBC9EB86F /* Pods_CashManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE949620C3FB63552DB2EBBF /* Pods_CashManagerTests.framework */; };
+		920D8C1629506A46008975E6 /* AddProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D8C1529506A46008975E6 /* AddProductDetails.swift */; };
+		92527E922934183D00513F74 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92527E912934183D00513F74 /* Cart.swift */; };
+		92527E952934BDB200513F74 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92527E942934BDB200513F74 /* CartItem.swift */; };
+		9287FB83295B660B006A85EF /* EditProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287FB82295B660B006A85EF /* EditProduct.swift */; };
+		9287FB8E29605A5A006A85EF /* DropOnSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287FB8D29605A5A006A85EF /* DropOnSuccess.swift */; };
+		9287FB9029605BB4006A85EF /* DropOnError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287FB8F29605BB4006A85EF /* DropOnError.swift */; };
+		9532FF2B293F8E240093CD60 /* ClientBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532FF2A293F8E240093CD60 /* ClientBack.swift */; };
+		9532FF2D293F90640093CD60 /* ClientsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532FF2C293F90640093CD60 /* ClientsRequests.swift */; };
+		955AA236294783010012CB82 /* bip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 955AA235294783010012CB82 /* bip.mp3 */; };
+		955AA23929478B610012CB82 /* scaduto_error.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 955AA23729478B310012CB82 /* scaduto_error.m4a */; };
+		955AA23A29478B610012CB82 /* scaduto_success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 955AA23829478B320012CB82 /* scaduto_success.m4a */; };
+		955AA23C2948ABFF0012CB82 /* CategoryRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AA23B2948ABFF0012CB82 /* CategoryRequests.swift */; };
+		955AA23E294B47440012CB82 /* OrderResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AA23D294B47440012CB82 /* OrderResumeView.swift */; };
+		955AA240294E30F20012CB82 /* OrderResumeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AA23F294E30F20012CB82 /* OrderResumeItem.swift */; };
+		955AA242294E33970012CB82 /* OrderBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AA241294E33970012CB82 /* OrderBack.swift */; };
+		955AA244294E35560012CB82 /* OrdersRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AA243294E35560012CB82 /* OrdersRequests.swift */; };
+		9560678829520B1A00646938 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9560678729520B1A00646938 /* OrderItem.swift */; };
+		9560678A29520BEA00646938 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9560678929520BEA00646938 /* OrderDetails.swift */; };
+		95743A37293CFB3D002E2AEC /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A34293CFB3C002E2AEC /* LottieViewController.swift */; };
+		95743A38293CFB3D002E2AEC /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A35293CFB3C002E2AEC /* Payment.swift */; };
+		95743A39293CFB3D002E2AEC /* WichPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A36293CFB3C002E2AEC /* WichPayment.swift */; };
+		95743A48293DE9E8002E2AEC /* AdminPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A43293DE9E8002E2AEC /* AdminPanel.swift */; };
+		95743A49293DE9E8002E2AEC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A45293DE9E8002E2AEC /* ProductView.swift */; };
+		95743A4A293DE9E8002E2AEC /* CashierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A46293DE9E8002E2AEC /* CashierView.swift */; };
+		95743A4B293DE9E8002E2AEC /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A47293DE9E8002E2AEC /* OrderView.swift */; };
+		95743A51293DEB5C002E2AEC /* ProductOFF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A4E293DEB5C002E2AEC /* ProductOFF.swift */; };
+		95743A52293DEB5C002E2AEC /* API+OpenFoodFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A4F293DEB5C002E2AEC /* API+OpenFoodFacts.swift */; };
+		95743A53293DEB5C002E2AEC /* OFFProductsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A50293DEB5C002E2AEC /* OFFProductsRequests.swift */; };
+		95743A55293DEB8B002E2AEC /* CartConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A54293DEB8B002E2AEC /* CartConfirmation.swift */; };
+		95743A57293DEBAA002E2AEC /* RecapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A56293DEBAA002E2AEC /* RecapItem.swift */; };
+		95743A5F293DF28A002E2AEC /* failed.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A58293DF289002E2AEC /* failed.json */; };
+		95743A60293DF28A002E2AEC /* payment_succes.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A59293DF289002E2AEC /* payment_succes.json */; };
+		95743A61293DF28A002E2AEC /* waiting_payment.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A5A293DF289002E2AEC /* waiting_payment.json */; };
+		95743A62293DF28A002E2AEC /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A5B293DF289002E2AEC /* money.json */; };
+		95743A63293DF28A002E2AEC /* failed_and_fuck.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A5C293DF289002E2AEC /* failed_and_fuck.json */; };
+		95743A64293DF28A002E2AEC /* check_banck.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A5D293DF28A002E2AEC /* check_banck.json */; };
+		95743A65293DF28A002E2AEC /* card.json in Resources */ = {isa = PBXBuildFile; fileRef = 95743A5E293DF28A002E2AEC /* card.json */; };
+		95743A70293F4587002E2AEC /* NFCErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A6F293F4587002E2AEC /* NFCErrors.swift */; };
+		95743A72293F45AC002E2AEC /* NFCMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A71293F45AC002E2AEC /* NFCMessages.swift */; };
+		95743A74293F45DA002E2AEC /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A73293F45DA002E2AEC /* NFCReader.swift */; };
+		95743A76293F45FB002E2AEC /* NFCTypeFormat+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95743A75293F45FB002E2AEC /* NFCTypeFormat+String.swift */; };
+		9585E182293E2D3A001AC370 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9585E181293E2D3A001AC370 /* UserRequest.swift */; };
+		95906601294219BE00B206C7 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		9590660429422DA500B206C7 /* CashierItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660329422DA500B206C7 /* CashierItem.swift */; };
+		9590660629422DFE00B206C7 /* EditCashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660529422DFE00B206C7 /* EditCashier.swift */; };
+		9590660829435A1C00B206C7 /* AddCashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660729435A1C00B206C7 /* AddCashier.swift */; };
+		9590660C294799A100B206C7 /* OrderBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660B294799A100B206C7 /* OrderBack.swift */; };
+		9590660E29479A0100B206C7 /* UserBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660D29479A0100B206C7 /* UserBack.swift */; };
+		959066102948AF6500B206C7 /* OrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9590660F2948AF6500B206C7 /* OrderRequest.swift */; };
+		95D5A3BC2936409B007E789C /* API+Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5A3BB2936409B007E789C /* API+Back.swift */; };
+		95D5A3C029364604007E789C /* ProductBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5A3BF29364604007E789C /* ProductBack.swift */; };
+		95D5A3C229364BD1007E789C /* ProductsRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D5A3C129364BD1007E789C /* ProductsRequests.swift */; };
+		95FA6C9C2934BEB90034A01B /* ScanBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FA6C9B2934BEB90034A01B /* ScanBarCodeView.swift */; };
+		B72C82A0ED2E517B727F4A18 /* Pods_CashManager_CashManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4D836342434006D15EBA74 /* Pods_CashManager_CashManagerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7BC82F292CD30500512C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7BC816292CD30300512C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7BC81D292CD30300512C11;
+			remoteInfo = CashManager;
+		};
+		3B7BC839292CD30500512C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7BC816292CD30300512C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7BC81D292CD30300512C11;
+			remoteInfo = CashManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FD6837F7B655F02F5BD12F /* Pods-CashManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManager.release.xcconfig"; path = "Target Support Files/Pods-CashManager/Pods-CashManager.release.xcconfig"; sourceTree = "<group>"; };
+		14597C3953D4ADBB39891E85 /* Pods-CashManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManager.debug.xcconfig"; path = "Target Support Files/Pods-CashManager/Pods-CashManager.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC8E2BF2948BE79004E9AC0 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		1CECCF71293F79D50044FDB7 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		1CF3711A2959EE0C0089BC5A /* UpdateCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCategory.swift; sourceTree = "<group>"; };
+		3752B7E7F7B87896790F3B38 /* Pods_CashManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B07C822292D19BC00BAC5A1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3B7BC81E292CD30300512C11 /* CashManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7BC821292CD30300512C11 /* CashManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManagerApp.swift; sourceTree = "<group>"; };
+		3B7BC823292CD30300512C11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B7BC825292CD30500512C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7BC828292CD30500512C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B7BC82E292CD30500512C11 /* CashManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7BC832292CD30500512C11 /* CashManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManagerTests.swift; sourceTree = "<group>"; };
+		3B7BC838292CD30500512C11 /* CashManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7BC83C292CD30500512C11 /* CashManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManagerUITests.swift; sourceTree = "<group>"; };
+		3B7BC83E292CD30500512C11 /* CashManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B7F6D27293E0DF10049F219 /* CodeScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
+		3B7F6D28293E0DF10049F219 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		3BF02A3C293E2F7300AAD5AF /* AuthenticateBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateBack.swift; sourceTree = "<group>"; };
+		3BF02A3E293E30D800AAD5AF /* AuthenticateRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateRequests.swift; sourceTree = "<group>"; };
+		5582870C2164031CC7AB05A7 /* Pods-CashManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-CashManagerTests/Pods-CashManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E4D836342434006D15EBA74 /* Pods_CashManager_CashManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashManager_CashManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D8C1529506A46008975E6 /* AddProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductDetails.swift; sourceTree = "<group>"; };
+		92527E912934183D00513F74 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		92527E942934BDB200513F74 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		9287FB82295B660B006A85EF /* EditProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProduct.swift; sourceTree = "<group>"; };
+		9287FB8D29605A5A006A85EF /* DropOnSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropOnSuccess.swift; sourceTree = "<group>"; };
+		9287FB8F29605BB4006A85EF /* DropOnError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropOnError.swift; sourceTree = "<group>"; };
+		9532FF2A293F8E240093CD60 /* ClientBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientBack.swift; sourceTree = "<group>"; };
+		9532FF2C293F90640093CD60 /* ClientsRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsRequests.swift; sourceTree = "<group>"; };
+		955AA235294783010012CB82 /* bip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bip.mp3; path = sounds/bip.mp3; sourceTree = "<group>"; };
+		955AA23729478B310012CB82 /* scaduto_error.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = scaduto_error.m4a; path = sounds/scaduto_error.m4a; sourceTree = "<group>"; };
+		955AA23829478B320012CB82 /* scaduto_success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = scaduto_success.m4a; path = sounds/scaduto_success.m4a; sourceTree = "<group>"; };
+		955AA23B2948ABFF0012CB82 /* CategoryRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRequests.swift; sourceTree = "<group>"; };
+		955AA23D294B47440012CB82 /* OrderResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResumeView.swift; sourceTree = "<group>"; };
+		955AA23F294E30F20012CB82 /* OrderResumeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResumeItem.swift; sourceTree = "<group>"; };
+		955AA241294E33970012CB82 /* OrderBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBack.swift; sourceTree = "<group>"; };
+		955AA243294E35560012CB82 /* OrdersRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRequests.swift; sourceTree = "<group>"; };
+		9560678729520B1A00646938 /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		9560678929520BEA00646938 /* OrderDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		95743A34293CFB3C002E2AEC /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		95743A35293CFB3C002E2AEC /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		95743A36293CFB3C002E2AEC /* WichPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WichPayment.swift; sourceTree = "<group>"; };
+		95743A43293DE9E8002E2AEC /* AdminPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminPanel.swift; sourceTree = "<group>"; };
+		95743A45293DE9E8002E2AEC /* ProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		95743A46293DE9E8002E2AEC /* CashierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashierView.swift; sourceTree = "<group>"; };
+		95743A47293DE9E8002E2AEC /* OrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		95743A4E293DEB5C002E2AEC /* ProductOFF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductOFF.swift; sourceTree = "<group>"; };
+		95743A4F293DEB5C002E2AEC /* API+OpenFoodFacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API+OpenFoodFacts.swift"; sourceTree = "<group>"; };
+		95743A50293DEB5C002E2AEC /* OFFProductsRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OFFProductsRequests.swift; sourceTree = "<group>"; };
+		95743A54293DEB8B002E2AEC /* CartConfirmation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartConfirmation.swift; sourceTree = "<group>"; };
+		95743A56293DEBAA002E2AEC /* RecapItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecapItem.swift; sourceTree = "<group>"; };
+		95743A58293DF289002E2AEC /* failed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failed.json; sourceTree = "<group>"; };
+		95743A59293DF289002E2AEC /* payment_succes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payment_succes.json; sourceTree = "<group>"; };
+		95743A5A293DF289002E2AEC /* waiting_payment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waiting_payment.json; sourceTree = "<group>"; };
+		95743A5B293DF289002E2AEC /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
+		95743A5C293DF289002E2AEC /* failed_and_fuck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = failed_and_fuck.json; sourceTree = "<group>"; };
+		95743A5D293DF28A002E2AEC /* check_banck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check_banck.json; sourceTree = "<group>"; };
+		95743A5E293DF28A002E2AEC /* card.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = card.json; sourceTree = "<group>"; };
+		95743A66293E453C002E2AEC /* CashManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CashManager.entitlements; sourceTree = "<group>"; };
+		95743A6F293F4587002E2AEC /* NFCErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCErrors.swift; sourceTree = "<group>"; };
+		95743A71293F45AC002E2AEC /* NFCMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCMessages.swift; sourceTree = "<group>"; };
+		95743A73293F45DA002E2AEC /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+		95743A75293F45FB002E2AEC /* NFCTypeFormat+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NFCTypeFormat+String.swift"; sourceTree = "<group>"; };
+		9585E181293E2D3A001AC370 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		9590660329422DA500B206C7 /* CashierItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierItem.swift; sourceTree = "<group>"; };
+		9590660529422DFE00B206C7 /* EditCashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCashier.swift; sourceTree = "<group>"; };
+		9590660729435A1C00B206C7 /* AddCashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCashier.swift; sourceTree = "<group>"; };
+		9590660B294799A100B206C7 /* OrderBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBack.swift; sourceTree = "<group>"; };
+		9590660D29479A0100B206C7 /* UserBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBack.swift; sourceTree = "<group>"; };
+		9590660F2948AF6500B206C7 /* OrderRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRequest.swift; sourceTree = "<group>"; };
+		95D5A3BB2936409B007E789C /* API+Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Back.swift"; sourceTree = "<group>"; };
+		95D5A3BF29364604007E789C /* ProductBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBack.swift; sourceTree = "<group>"; };
+		95D5A3C129364BD1007E789C /* ProductsRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRequests.swift; sourceTree = "<group>"; };
+		95FA6C9B2934BEB90034A01B /* ScanBarCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanBarCodeView.swift; sourceTree = "<group>"; };
+		9ABE8E6389A378C57E2C7FA5 /* Pods-CashManager-CashManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManager-CashManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-CashManager-CashManagerUITests/Pods-CashManager-CashManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B726B841E034A440ED81A839 /* Pods-CashManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManagerTests.release.xcconfig"; path = "Target Support Files/Pods-CashManagerTests/Pods-CashManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD9FCA7D4A1C193EEAA59ED0 /* Pods-CashManager-CashManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashManager-CashManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-CashManager-CashManagerUITests/Pods-CashManager-CashManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE949620C3FB63552DB2EBBF /* Pods_CashManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7BC81B292CD30300512C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95906601294219BE00B206C7 /* (null) in Frameworks */,
+				1DB88449AB4326029A7303ED /* Pods_CashManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC82B292CD30500512C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43C9BFAA42056BBC9EB86F /* Pods_CashManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC835292CD30500512C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72C82A0ED2E517B727F4A18 /* Pods_CashManager_CashManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC8E2BE2948BE40004E9AC0 /* ProductAndCategoryServices */ = {
+			isa = PBXGroup;
+			children = (
+				95743A45293DE9E8002E2AEC /* ProductView.swift */,
+				1CC8E2BF2948BE79004E9AC0 /* AddCategory.swift */,
+				1CF3711A2959EE0C0089BC5A /* UpdateCategory.swift */,
+			);
+			path = ProductAndCategoryServices;
+			sourceTree = "<group>";
+		};
+		3B7BC815292CD30300512C11 = {
+			isa = PBXGroup;
+			children = (
+				955AA235294783010012CB82 /* bip.mp3 */,
+				955AA23729478B310012CB82 /* scaduto_error.m4a */,
+				955AA23829478B320012CB82 /* scaduto_success.m4a */,
+				3B7BC820292CD30300512C11 /* CashManager */,
+				3B7BC831292CD30500512C11 /* CashManagerTests */,
+				3B7BC83B292CD30500512C11 /* CashManagerUITests */,
+				3B7BC81F292CD30300512C11 /* Products */,
+				3BEF731F46A7DDA2050C9C18 /* Pods */,
+				A32F3A3EF5023C0CAD91B761 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7BC81F292CD30300512C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BC81E292CD30300512C11 /* CashManager.app */,
+				3B7BC82E292CD30500512C11 /* CashManagerTests.xctest */,
+				3B7BC838292CD30500512C11 /* CashManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7BC820292CD30300512C11 /* CashManager */ = {
+			isa = PBXGroup;
+			children = (
+				95743A6E293F4562002E2AEC /* NFC */,
+				95743A66293E453C002E2AEC /* CashManager.entitlements */,
+				3B7F6D24293E0DDA0049F219 /* CodeScanner */,
+				95743A43293DE9E8002E2AEC /* AdminPanel.swift */,
+				95743A44293DE9E8002E2AEC /* AdminView */,
+				95743A33293CFB3C002E2AEC /* lottie */,
+				95743A35293CFB3C002E2AEC /* Payment.swift */,
+				95743A36293CFB3C002E2AEC /* WichPayment.swift */,
+				95D5A3BA29364049007E789C /* Api */,
+				92527E932934193500513F74 /* components */,
+				92C41DB6292D18A800C7C1BC /* views */,
+				3B7BC821292CD30300512C11 /* CashManagerApp.swift */,
+				3B7BC823292CD30300512C11 /* ContentView.swift */,
+				3B7BC825292CD30500512C11 /* Assets.xcassets */,
+				3B7BC827292CD30500512C11 /* Preview Content */,
+				3B07C822292D19BC00BAC5A1 /* Login.swift */,
+				95FA6C9B2934BEB90034A01B /* ScanBarCodeView.swift */,
+				955AA23D294B47440012CB82 /* OrderResumeView.swift */,
+			);
+			path = CashManager;
+			sourceTree = "<group>";
+		};
+		3B7BC827292CD30500512C11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BC828292CD30500512C11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B7BC831292CD30500512C11 /* CashManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BC832292CD30500512C11 /* CashManagerTests.swift */,
+			);
+			path = CashManagerTests;
+			sourceTree = "<group>";
+		};
+		3B7BC83B292CD30500512C11 /* CashManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7BC83C292CD30500512C11 /* CashManagerUITests.swift */,
+				3B7BC83E292CD30500512C11 /* CashManagerUITestsLaunchTests.swift */,
+			);
+			path = CashManagerUITests;
+			sourceTree = "<group>";
+		};
+		3B7F6D24293E0DDA0049F219 /* CodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3B7F6D27293E0DF10049F219 /* CodeScanner.swift */,
+				3B7F6D28293E0DF10049F219 /* ScannerViewController.swift */,
+			);
+			path = CodeScanner;
+			sourceTree = "<group>";
+		};
+		3BEF731F46A7DDA2050C9C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14597C3953D4ADBB39891E85 /* Pods-CashManager.debug.xcconfig */,
+				03FD6837F7B655F02F5BD12F /* Pods-CashManager.release.xcconfig */,
+				9ABE8E6389A378C57E2C7FA5 /* Pods-CashManager-CashManagerUITests.debug.xcconfig */,
+				CD9FCA7D4A1C193EEAA59ED0 /* Pods-CashManager-CashManagerUITests.release.xcconfig */,
+				5582870C2164031CC7AB05A7 /* Pods-CashManagerTests.debug.xcconfig */,
+				B726B841E034A440ED81A839 /* Pods-CashManagerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		920D8C1429506A2F008975E6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				920D8C1529506A46008975E6 /* AddProductDetails.swift */,
+				9287FB82295B660B006A85EF /* EditProduct.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		92527E932934193500513F74 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				9287FB8C29605A15006A85EF /* Drops */,
+				95743A56293DEBAA002E2AEC /* RecapItem.swift */,
+				92527E942934BDB200513F74 /* CartItem.swift */,
+				955AA23F294E30F20012CB82 /* OrderResumeItem.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		9287FB8C29605A15006A85EF /* Drops */ = {
+			isa = PBXGroup;
+			children = (
+				9287FB8D29605A5A006A85EF /* DropOnSuccess.swift */,
+				9287FB8F29605BB4006A85EF /* DropOnError.swift */,
+			);
+			path = Drops;
+			sourceTree = "<group>";
+		};
+		92C41DB6292D18A800C7C1BC /* views */ = {
+			isa = PBXGroup;
+			children = (
+				95743A54293DEB8B002E2AEC /* CartConfirmation.swift */,
+				92527E912934183D00513F74 /* Cart.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9560678629520AD200646938 /* OrderServices */ = {
+			isa = PBXGroup;
+			children = (
+				9560678929520BEA00646938 /* OrderDetails.swift */,
+				9560678729520B1A00646938 /* OrderItem.swift */,
+			);
+			path = OrderServices;
+			sourceTree = "<group>";
+		};
+		95743A33293CFB3C002E2AEC /* lottie */ = {
+			isa = PBXGroup;
+			children = (
+				95743A5E293DF28A002E2AEC /* card.json */,
+				95743A5D293DF28A002E2AEC /* check_banck.json */,
+				95743A5C293DF289002E2AEC /* failed_and_fuck.json */,
+				95743A58293DF289002E2AEC /* failed.json */,
+				95743A5B293DF289002E2AEC /* money.json */,
+				95743A59293DF289002E2AEC /* payment_succes.json */,
+				95743A5A293DF289002E2AEC /* waiting_payment.json */,
+				95743A34293CFB3C002E2AEC /* LottieViewController.swift */,
+			);
+			path = lottie;
+			sourceTree = "<group>";
+		};
+		95743A44293DE9E8002E2AEC /* AdminView */ = {
+			isa = PBXGroup;
+			children = (
+				1CC8E2BE2948BE40004E9AC0 /* ProductAndCategoryServices */,
+				9560678629520AD200646938 /* OrderServices */,
+				920D8C1429506A2F008975E6 /* Product */,
+				9590660229422D8100B206C7 /* CashierServices */,
+				95743A46293DE9E8002E2AEC /* CashierView.swift */,
+				95743A47293DE9E8002E2AEC /* OrderView.swift */,
+				1CECCF71293F79D50044FDB7 /* CategoryView.swift */,
+			);
+			path = AdminView;
+			sourceTree = "<group>";
+		};
+		95743A4C293DEB5C002E2AEC /* OpenFoodFacts */ = {
+			isa = PBXGroup;
+			children = (
+				95743A4D293DEB5C002E2AEC /* Models */,
+				95743A4F293DEB5C002E2AEC /* API+OpenFoodFacts.swift */,
+				95743A50293DEB5C002E2AEC /* OFFProductsRequests.swift */,
+			);
+			path = OpenFoodFacts;
+			sourceTree = "<group>";
+		};
+		95743A4D293DEB5C002E2AEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95743A4E293DEB5C002E2AEC /* ProductOFF.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95743A6E293F4562002E2AEC /* NFC */ = {
+			isa = PBXGroup;
+			children = (
+				95743A6F293F4587002E2AEC /* NFCErrors.swift */,
+				95743A71293F45AC002E2AEC /* NFCMessages.swift */,
+				95743A73293F45DA002E2AEC /* NFCReader.swift */,
+				95743A75293F45FB002E2AEC /* NFCTypeFormat+String.swift */,
+			);
+			path = NFC;
+			sourceTree = "<group>";
+		};
+		9590660229422D8100B206C7 /* CashierServices */ = {
+			isa = PBXGroup;
+			children = (
+				9590660329422DA500B206C7 /* CashierItem.swift */,
+				9590660529422DFE00B206C7 /* EditCashier.swift */,
+				9590660729435A1C00B206C7 /* AddCashier.swift */,
+			);
+			path = CashierServices;
+			sourceTree = "<group>";
+		};
+		95D5A3BA29364049007E789C /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				95743A4C293DEB5C002E2AEC /* OpenFoodFacts */,
+				95D5A3BE293645D0007E789C /* Back */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		95D5A3BD293645BA007E789C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95D5A3BF29364604007E789C /* ProductBack.swift */,
+				9532FF2A293F8E240093CD60 /* ClientBack.swift */,
+				3BF02A3C293E2F7300AAD5AF /* AuthenticateBack.swift */,
+				9590660B294799A100B206C7 /* OrderBack.swift */,
+				9590660D29479A0100B206C7 /* UserBack.swift */,
+				955AA241294E33970012CB82 /* OrderBack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		95D5A3BE293645D0007E789C /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				95D5A3BB2936409B007E789C /* API+Back.swift */,
+				95D5A3BD293645BA007E789C /* Models */,
+				95D5A3C129364BD1007E789C /* ProductsRequests.swift */,
+				955AA23B2948ABFF0012CB82 /* CategoryRequests.swift */,
+				9590660F2948AF6500B206C7 /* OrderRequest.swift */,
+				9532FF2C293F90640093CD60 /* ClientsRequests.swift */,
+				3BF02A3E293E30D800AAD5AF /* AuthenticateRequests.swift */,
+				9585E181293E2D3A001AC370 /* UserRequest.swift */,
+				955AA243294E35560012CB82 /* OrdersRequests.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		A32F3A3EF5023C0CAD91B761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3752B7E7F7B87896790F3B38 /* Pods_CashManager.framework */,
+				7E4D836342434006D15EBA74 /* Pods_CashManager_CashManagerUITests.framework */,
+				DE949620C3FB63552DB2EBBF /* Pods_CashManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7BC81D292CD30300512C11 /* CashManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7BC842292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManager" */;
+			buildPhases = (
+				A92F0ACDEE837345FE23F294 /* [CP] Check Pods Manifest.lock */,
+				3B7BC81A292CD30300512C11 /* Sources */,
+				3B7BC81B292CD30300512C11 /* Frameworks */,
+				3B7BC81C292CD30300512C11 /* Resources */,
+				C586D19E6FD720A20AB9EA08 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95743A3E293D0F08002E2AEC /* PBXTargetDependency */,
+			);
+			name = CashManager;
+			packageProductDependencies = (
+			);
+			productName = CashManager;
+			productReference = 3B7BC81E292CD30300512C11 /* CashManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7BC82D292CD30500512C11 /* CashManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7BC845292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManagerTests" */;
+			buildPhases = (
+				98E9D64B4F03347A2BE45698 /* [CP] Check Pods Manifest.lock */,
+				3B7BC82A292CD30500512C11 /* Sources */,
+				3B7BC82B292CD30500512C11 /* Frameworks */,
+				3B7BC82C292CD30500512C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7BC830292CD30500512C11 /* PBXTargetDependency */,
+			);
+			name = CashManagerTests;
+			productName = CashManagerTests;
+			productReference = 3B7BC82E292CD30500512C11 /* CashManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B7BC837292CD30500512C11 /* CashManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7BC848292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManagerUITests" */;
+			buildPhases = (
+				FE3CC44482344A6C729BF724 /* [CP] Check Pods Manifest.lock */,
+				3B7BC834292CD30500512C11 /* Sources */,
+				3B7BC835292CD30500512C11 /* Frameworks */,
+				3B7BC836292CD30500512C11 /* Resources */,
+				46ED960A913B29009DB552CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7BC83A292CD30500512C11 /* PBXTargetDependency */,
+			);
+			name = CashManagerUITests;
+			productName = CashManagerUITests;
+			productReference = 3B7BC838292CD30500512C11 /* CashManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7BC816292CD30300512C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3B7BC81D292CD30300512C11 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3B7BC82D292CD30500512C11 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3B7BC81D292CD30300512C11;
+					};
+					3B7BC837292CD30500512C11 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3B7BC81D292CD30300512C11;
+					};
+				};
+			};
+			buildConfigurationList = 3B7BC819292CD30300512C11 /* Build configuration list for PBXProject "CashManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7BC815292CD30300512C11;
+			packageReferences = (
+			);
+			productRefGroup = 3B7BC81F292CD30300512C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7BC81D292CD30300512C11 /* CashManager */,
+				3B7BC82D292CD30500512C11 /* CashManagerTests */,
+				3B7BC837292CD30500512C11 /* CashManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7BC81C292CD30300512C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955AA23929478B610012CB82 /* scaduto_error.m4a in Resources */,
+				955AA23A29478B610012CB82 /* scaduto_success.m4a in Resources */,
+				955AA236294783010012CB82 /* bip.mp3 in Resources */,
+				95743A61293DF28A002E2AEC /* waiting_payment.json in Resources */,
+				3B7BC829292CD30500512C11 /* Preview Assets.xcassets in Resources */,
+				95743A62293DF28A002E2AEC /* money.json in Resources */,
+				95743A5F293DF28A002E2AEC /* failed.json in Resources */,
+				95743A64293DF28A002E2AEC /* check_banck.json in Resources */,
+				95743A60293DF28A002E2AEC /* payment_succes.json in Resources */,
+				95743A63293DF28A002E2AEC /* failed_and_fuck.json in Resources */,
+				95743A65293DF28A002E2AEC /* card.json in Resources */,
+				3B7BC826292CD30500512C11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC82C292CD30500512C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC836292CD30500512C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46ED960A913B29009DB552CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CashManager-CashManagerUITests/Pods-CashManager-CashManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CashManager-CashManagerUITests/Pods-CashManager-CashManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CashManager-CashManagerUITests/Pods-CashManager-CashManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E9D64B4F03347A2BE45698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92F0ACDEE837345FE23F294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C586D19E6FD720A20AB9EA08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CashManager/Pods-CashManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CashManager/Pods-CashManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CashManager/Pods-CashManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3CC44482344A6C729BF724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CashManager-CashManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7BC81A292CD30300512C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9532FF2D293F90640093CD60 /* ClientsRequests.swift in Sources */,
+				3BF02A3F293E30D800AAD5AF /* AuthenticateRequests.swift in Sources */,
+				959066102948AF6500B206C7 /* OrderRequest.swift in Sources */,
+				95D5A3C229364BD1007E789C /* ProductsRequests.swift in Sources */,
+				955AA23C2948ABFF0012CB82 /* CategoryRequests.swift in Sources */,
+				1CF3711B2959EE0C0089BC5A /* UpdateCategory.swift in Sources */,
+				9590660C294799A100B206C7 /* OrderBack.swift in Sources */,
+				95743A4B293DE9E8002E2AEC /* OrderView.swift in Sources */,
+				9585E182293E2D3A001AC370 /* UserRequest.swift in Sources */,
+				9590660E29479A0100B206C7 /* UserBack.swift in Sources */,
+				95FA6C9C2934BEB90034A01B /* ScanBarCodeView.swift in Sources */,
+				95743A51293DEB5C002E2AEC /* ProductOFF.swift in Sources */,
+				95743A38293CFB3D002E2AEC /* Payment.swift in Sources */,
+				9590660429422DA500B206C7 /* CashierItem.swift in Sources */,
+				9560678829520B1A00646938 /* OrderItem.swift in Sources */,
+				3B07C823292D19BC00BAC5A1 /* Login.swift in Sources */,
+				95743A49293DE9E8002E2AEC /* ProductView.swift in Sources */,
+				95743A70293F4587002E2AEC /* NFCErrors.swift in Sources */,
+				955AA242294E33970012CB82 /* OrderBack.swift in Sources */,
+				955AA244294E35560012CB82 /* OrdersRequests.swift in Sources */,
+				95743A4A293DE9E8002E2AEC /* CashierView.swift in Sources */,
+				95743A76293F45FB002E2AEC /* NFCTypeFormat+String.swift in Sources */,
+				95743A37293CFB3D002E2AEC /* LottieViewController.swift in Sources */,
+				95743A39293CFB3D002E2AEC /* WichPayment.swift in Sources */,
+				3B7BC824292CD30300512C11 /* ContentView.swift in Sources */,
+				92527E922934183D00513F74 /* Cart.swift in Sources */,
+				955AA23E294B47440012CB82 /* OrderResumeView.swift in Sources */,
+				95743A72293F45AC002E2AEC /* NFCMessages.swift in Sources */,
+				95743A55293DEB8B002E2AEC /* CartConfirmation.swift in Sources */,
+				955AA240294E30F20012CB82 /* OrderResumeItem.swift in Sources */,
+				9590660829435A1C00B206C7 /* AddCashier.swift in Sources */,
+				95743A52293DEB5C002E2AEC /* API+OpenFoodFacts.swift in Sources */,
+				9287FB8E29605A5A006A85EF /* DropOnSuccess.swift in Sources */,
+				95743A53293DEB5C002E2AEC /* OFFProductsRequests.swift in Sources */,
+				9532FF2B293F8E240093CD60 /* ClientBack.swift in Sources */,
+				9287FB9029605BB4006A85EF /* DropOnError.swift in Sources */,
+				95743A57293DEBAA002E2AEC /* RecapItem.swift in Sources */,
+				3B7F6D2B293E0DF10049F219 /* ScannerViewController.swift in Sources */,
+				9287FB83295B660B006A85EF /* EditProduct.swift in Sources */,
+				1CC8E2C02948BE79004E9AC0 /* AddCategory.swift in Sources */,
+				9532FF27293F8C220093CD60 /* UserRequest.swift in Sources */,
+				1CECCF72293F79D50044FDB7 /* CategoryView.swift in Sources */,
+				3BF02A3D293E2F7300AAD5AF /* AuthenticateBack.swift in Sources */,
+				92527E952934BDB200513F74 /* CartItem.swift in Sources */,
+				95D5A3BC2936409B007E789C /* API+Back.swift in Sources */,
+				920D8C1629506A46008975E6 /* AddProductDetails.swift in Sources */,
+				95743A48293DE9E8002E2AEC /* AdminPanel.swift in Sources */,
+				9560678A29520BEA00646938 /* OrderDetails.swift in Sources */,
+				95743A74293F45DA002E2AEC /* NFCReader.swift in Sources */,
+				9590660629422DFE00B206C7 /* EditCashier.swift in Sources */,
+				95D5A3C029364604007E789C /* ProductBack.swift in Sources */,
+				3B7BC822292CD30300512C11 /* CashManagerApp.swift in Sources */,
+				3B7F6D2A293E0DF10049F219 /* CodeScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC82A292CD30500512C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7BC833292CD30500512C11 /* CashManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7BC834292CD30500512C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7BC83D292CD30500512C11 /* CashManagerUITests.swift in Sources */,
+				3B7BC83F292CD30500512C11 /* CashManagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7BC830292CD30500512C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7BC81D292CD30300512C11 /* CashManager */;
+			targetProxy = 3B7BC82F292CD30500512C11 /* PBXContainerItemProxy */;
+		};
+		3B7BC83A292CD30500512C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7BC81D292CD30300512C11 /* CashManager */;
+			targetProxy = 3B7BC839292CD30500512C11 /* PBXContainerItemProxy */;
+		};
+		95743A3E293D0F08002E2AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 95743A3D293D0F08002E2AEC /* SimplyNFC */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B7BC840292CD30500512C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7BC841292CD30500512C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7BC843292CD30500512C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14597C3953D4ADBB39891E85 /* Pods-CashManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CashManager/CashManager.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashManager/Preview Content\"";
+				DEVELOPMENT_TEAM = WQ9L7W6GMF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Handle payment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7BC844292CD30500512C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FD6837F7B655F02F5BD12F /* Pods-CashManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CashManager/CashManager.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashManager/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Handle payment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B7BC846292CD30500512C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5582870C2164031CC7AB05A7 /* Pods-CashManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashManager.app/CashManager";
+			};
+			name = Debug;
+		};
+		3B7BC847292CD30500512C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B726B841E034A440ED81A839 /* Pods-CashManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashManager.app/CashManager";
+			};
+			name = Release;
+		};
+		3B7BC849292CD30500512C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABE8E6389A378C57E2C7FA5 /* Pods-CashManager-CashManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashManager;
+			};
+			name = Debug;
+		};
+		3B7BC84A292CD30500512C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD9FCA7D4A1C193EEAA59ED0 /* Pods-CashManager-CashManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cashManager.CashManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7BC819292CD30300512C11 /* Build configuration list for PBXProject "CashManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7BC840292CD30500512C11 /* Debug */,
+				3B7BC841292CD30500512C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7BC842292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7BC843292CD30500512C11 /* Debug */,
+				3B7BC844292CD30500512C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7BC845292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7BC846292CD30500512C11 /* Debug */,
+				3B7BC847292CD30500512C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7BC848292CD30500512C11 /* Build configuration list for PBXNativeTarget "CashManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7BC849292CD30500512C11 /* Debug */,
+				3B7BC84A292CD30500512C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95743A3A293D0CBF002E2AEC /* XCRemoteSwiftPackageReference "SimplyNFC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yanngodeau/SimplyNFC";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95743A3D293D0F08002E2AEC /* SimplyNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95743A3A293D0CBF002E2AEC /* XCRemoteSwiftPackageReference "SimplyNFC" */;
+			productName = SimplyNFC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B7BC816292CD30300512C11 /* Project object */;
+}

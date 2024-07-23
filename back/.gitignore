@@ -1,0 +1,7 @@
+/node_modules
+.DS_Store
+.env
+
+../CashManager/CashManager.xcodeproj/xcuserdata/serge.xcuserdatad/
+.idea/
+logs.txt
